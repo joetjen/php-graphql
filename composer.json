@@ -1,0 +1,29 @@
+{
+  "name": "joetjen/graphql",
+  "description": "Query Builder for GraphQL",
+  "keywords": [
+    "graphql",
+    "query"
+  ],
+  "type": "library",
+  "homepage": "http://github.com/joetjen/php-graphql",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Jan Oetjen",
+      "email": "oetjenj@gmail.com"
+    }
+  ],
+  "support": {
+    "issues": "http://github.com/joetjen/php-graphql/issues"
+  },
+  "require": {
+    "php": ">=5.3"
+  },
+  "autoload": {
+    "psr-4": {
+      "JOetjen\\GraphQL\\": "src/"
+    }
+  }
+}
